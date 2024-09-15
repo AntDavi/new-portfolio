@@ -13,7 +13,7 @@ const stairAnimation = {
 }
 
 const reverseIndex = (index: number) => {
-    const totalSteps = 6;
+    const totalSteps = 8;
     return totalSteps - index - 1;
 }
 
@@ -25,7 +25,7 @@ const Stair = () => {
             As divs possuem a mesma animação stairAnimation, porém com um delay diferente que é calculado dinamicamente.
             */}
 
-            {[...Array(6)].map((_, index) => {
+            {[...Array(8)].map((_, index) => {
                 return (
                     <motion.div
                         key={index}

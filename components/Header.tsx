@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import Nav from "./Nav"
-import { Button } from "./ui/button"
+import MobileNav from "./MobileNav"
 
 const Header = () => {
     return (
@@ -23,16 +23,11 @@ const Header = () => {
                 {/* Desktop nav */}
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav/>
-                    <Link href='/contact'>
-                        <Button>
-                            Contact me
-                        </Button>
-                    </Link>
                 </div>
 
                 {/* Mobile Nav */}
                 <div className="xl:hidden">
-                    mobile nav
+                    <MobileNav/>
                 </div>
             </div>
         </header>
