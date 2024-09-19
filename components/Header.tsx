@@ -13,7 +13,7 @@ const Header = () => {
                     href='/'
                 >
                     <Image
-                        src={"./assets/logo.svg"}
+                        src="./assets/logo.svg"
                         width={50}
                         height={50}
                         alt="Anthony Davi"

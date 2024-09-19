@@ -1,3 +1,6 @@
+import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
+import React from 'react';
+
 export const links = [
     {
         name: "home",
@@ -19,4 +22,19 @@ export const links = [
         name: "contact",
         path: "/contact"
     }
+]
+
+export const socials = [
+    {
+        icon: React.createElement(GitHubLogoIcon),
+        path: ''
+    },
+    {
+        icon: React.createElement(InstagramLogoIcon),
+        path: ''
+    },
+    {
+        icon: React.createElement(LinkedInLogoIcon),
+        path: ''
+    },
 ]
