@@ -11,7 +11,7 @@ export default function Home() {
           {/* texto */}
           <div className='text-center xl:text-left '>
             <span className='text-xl'>
-              Front-End Dev & UX Designer
+              Front-End Dev and UX Designer
             </span>
             <h1 className='h1 mb-6'>
               Hello I&apos;m
